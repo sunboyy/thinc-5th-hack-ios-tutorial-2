@@ -3,7 +3,8 @@ import UIKit
 class ViewController: UIViewController {
     
     // Fill code
-    
+    @IBOutlet weak var nameLbl: UILabel!
+    @IBOutlet weak var memberImg: UIImageView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
