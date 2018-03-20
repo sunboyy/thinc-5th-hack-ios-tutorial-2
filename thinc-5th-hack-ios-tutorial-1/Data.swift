@@ -1,11 +1,3 @@
-//
-//  Data.swift
-//  thinc-5th-hack-ios-tutorial-1
-//
-//  Created by Smile on 3/20/2561 BE.
-//  Copyright © 2561 mrsunboy. All rights reserved.
-//
-
 import UIKit
 
 class Member {
@@ -20,7 +12,8 @@ class Member {
         self.image = image
     }
 }
-let members = [
+
+let bnk48Members = [
     Member(name: "Can", image: #imageLiteral(resourceName: "can")),
     Member(name: "Cherprang", image: #imageLiteral(resourceName: "cherprang")),
     Member(name: "Izurina", image: #imageLiteral(resourceName: "izurina")),
