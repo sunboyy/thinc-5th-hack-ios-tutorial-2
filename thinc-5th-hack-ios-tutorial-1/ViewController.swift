@@ -21,7 +21,6 @@ class ViewController: UIViewController {
         memberImg.image = member.image
     }
     
-    
     func randomMember() -> Member {
         let random = Int(arc4random_uniform(UInt32(bnk48Members.count)))
         return bnk48Members[random]
