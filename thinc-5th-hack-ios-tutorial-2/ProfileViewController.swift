@@ -25,7 +25,7 @@ class ProfileViewController: UIViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-        var member = loadJson(name: data)
+        let member = loadJson(name: data)
         nameText.text = member?.name
         birthText.text = member?.birth
         heightText.text = member?.height

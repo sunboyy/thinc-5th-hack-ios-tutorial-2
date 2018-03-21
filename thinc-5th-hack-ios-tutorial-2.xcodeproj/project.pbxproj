@@ -19,7 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8413B3A62061507E00877907 /* thinc-5th-hack-ios-tutorial-1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "thinc-5th-hack-ios-tutorial-1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8413B3A62061507E00877907 /* thinc-5th-hack-ios-tutorial-2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "thinc-5th-hack-ios-tutorial-2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8413B3A92061507E00877907 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8413B3AB2061507E00877907 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8413B3AE2061507E00877907 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		8413B39D2061507D00877907 = {
 			isa = PBXGroup;
 			children = (
-				8413B3A82061507E00877907 /* thinc-5th-hack-ios-tutorial-1 */,
+				8413B3A82061507E00877907 /* thinc-5th-hack-ios-tutorial-2 */,
 				8413B3A72061507E00877907 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,12 +54,12 @@
 		8413B3A72061507E00877907 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8413B3A62061507E00877907 /* thinc-5th-hack-ios-tutorial-1.app */,
+				8413B3A62061507E00877907 /* thinc-5th-hack-ios-tutorial-2.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8413B3A82061507E00877907 /* thinc-5th-hack-ios-tutorial-1 */ = {
+		8413B3A82061507E00877907 /* thinc-5th-hack-ios-tutorial-2 */ = {
 			isa = PBXGroup;
 			children = (
 				8413B3A92061507E00877907 /* AppDelegate.swift */,
@@ -73,15 +73,15 @@
 				847FEF3A206174F30062D7C1 /* ProfileViewController.swift */,
 				847FEF42206214010062D7C1 /* SecretViewController.swift */,
 			);
-			path = "thinc-5th-hack-ios-tutorial-1";
+			path = "thinc-5th-hack-ios-tutorial-2";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8413B3A52061507E00877907 /* thinc-5th-hack-ios-tutorial-1 */ = {
+		8413B3A52061507E00877907 /* thinc-5th-hack-ios-tutorial-2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8413B3B82061507E00877907 /* Build configuration list for PBXNativeTarget "thinc-5th-hack-ios-tutorial-1" */;
+			buildConfigurationList = 8413B3B82061507E00877907 /* Build configuration list for PBXNativeTarget "thinc-5th-hack-ios-tutorial-2" */;
 			buildPhases = (
 				8413B3A22061507E00877907 /* Sources */,
 				8413B3A32061507E00877907 /* Frameworks */,
@@ -91,9 +91,9 @@
 			);
 			dependencies = (
 			);
-			name = "thinc-5th-hack-ios-tutorial-1";
+			name = "thinc-5th-hack-ios-tutorial-2";
 			productName = "thinc-5th-hack-ios-tutorial-1";
-			productReference = 8413B3A62061507E00877907 /* thinc-5th-hack-ios-tutorial-1.app */;
+			productReference = 8413B3A62061507E00877907 /* thinc-5th-hack-ios-tutorial-2.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -112,7 +112,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8413B3A12061507D00877907 /* Build configuration list for PBXProject "thinc-5th-hack-ios-tutorial-1" */;
+			buildConfigurationList = 8413B3A12061507D00877907 /* Build configuration list for PBXProject "thinc-5th-hack-ios-tutorial-2" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -125,7 +125,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8413B3A52061507E00877907 /* thinc-5th-hack-ios-tutorial-1 */,
+				8413B3A52061507E00877907 /* thinc-5th-hack-ios-tutorial-2 */,
 			);
 		};
 /* End PBXProject section */
@@ -291,9 +291,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "thinc-5th-hack-ios-tutorial-1/Info.plist";
+				INFOPLIST_FILE = "thinc-5th-hack-ios-tutorial-2/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mrsunboy.thinc-5th-hack-ios-tutorial-1";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mrsunboy.thinc-5th-hack-ios-tutorial-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -305,9 +305,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "thinc-5th-hack-ios-tutorial-1/Info.plist";
+				INFOPLIST_FILE = "thinc-5th-hack-ios-tutorial-2/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mrsunboy.thinc-5th-hack-ios-tutorial-1";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mrsunboy.thinc-5th-hack-ios-tutorial-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -317,7 +317,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8413B3A12061507D00877907 /* Build configuration list for PBXProject "thinc-5th-hack-ios-tutorial-1" */ = {
+		8413B3A12061507D00877907 /* Build configuration list for PBXProject "thinc-5th-hack-ios-tutorial-2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8413B3B62061507E00877907 /* Debug */,
@@ -326,7 +326,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8413B3B82061507E00877907 /* Build configuration list for PBXNativeTarget "thinc-5th-hack-ios-tutorial-1" */ = {
+		8413B3B82061507E00877907 /* Build configuration list for PBXNativeTarget "thinc-5th-hack-ios-tutorial-2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8413B3B92061507E00877907 /* Debug */,
