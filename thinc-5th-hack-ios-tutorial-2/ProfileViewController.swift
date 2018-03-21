@@ -3,7 +3,8 @@ import LocalAuthentication
 class ProfileViewController: UIViewController {
     
     var member: Member?
-    @IBOutlet weak var nameText: UILabel!
+    @IBOutlet weak var nicknameLbl: UILabel!
+    @IBOutlet weak var nameLbl: UILabel!
     @IBOutlet weak var birthText: UILabel!
     @IBOutlet weak var heightText: UILabel!
     @IBOutlet weak var bloodTypeText: UILabel!
@@ -14,15 +15,15 @@ class ProfileViewController: UIViewController {
     }
     
     @IBAction func backBtnPressed(_ sender: Any) {
-        dismiss(animated: true) {
-        }
+        dismiss(animated: true, completion: nil)
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         if let member = member {
-            nameText.text = member.nameTH
+            nicknameLbl.text = member.nickname
+            nameLbl.text = member.nameTH
             memberImg.image = member.image
             birthText.text = member.birthdate
             heightText.text = "\(member.height) cm"

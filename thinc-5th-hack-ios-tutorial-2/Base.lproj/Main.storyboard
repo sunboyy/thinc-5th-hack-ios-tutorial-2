@@ -101,7 +101,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Full Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9vr-bO-shk">
-                                <rect key="frame" x="135.5" y="414.5" width="103.5" height="29"/>
+                                <rect key="frame" x="135.5" y="413.5" width="103.5" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="heE-wp-ps8"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <color key="textColor" red="0.53280055522918701" green="0.27718311548233032" blue="0.5197148323059082" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -176,7 +179,7 @@
                                 </constraints>
                             </view>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="YxV-if-Ufw">
-                                <rect key="frame" x="20" y="100" width="335" height="298.5"/>
+                                <rect key="frame" x="20" y="100" width="335" height="297.5"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="tNx-tc-fz0">
                                 <rect key="frame" x="79" y="577" width="216" height="50"/>
@@ -239,7 +242,8 @@
                         <outlet property="bloodTypeText" destination="6ID-0C-Tae" id="xQh-Y5-zzu"/>
                         <outlet property="heightText" destination="h4q-8a-f8c" id="KPo-Pw-lQk"/>
                         <outlet property="memberImg" destination="YxV-if-Ufw" id="oRH-b8-6A3"/>
-                        <outlet property="nameText" destination="9vr-bO-shk" id="5Ju-ye-jWc"/>
+                        <outlet property="nameLbl" destination="9vr-bO-shk" id="wad-9r-CwU"/>
+                        <outlet property="nicknameLbl" destination="KPA-Np-Jyf" id="Iq1-Vi-psy"/>
                         <segue destination="Rop-JH-yv8" kind="show" identifier="showSecret" id="mly-AB-Mzl"/>
                     </connections>
                 </viewController>
