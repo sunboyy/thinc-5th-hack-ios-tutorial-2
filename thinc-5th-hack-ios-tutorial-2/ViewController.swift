@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     // TODO Fill code random action
     @IBAction func randomPressed(_ sender: Any) {
         let member = self.randomMember()
-        self.nameLbl.text = member.name
+        self.nameLbl.text = member.nickname
         self.memberImg.image = member.image
         for _ in 0...10{
             
@@ -31,7 +31,7 @@ class ViewController: UIViewController {
         return bnk48Members[random]
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let data = bnk48Members[random].name
+        let data = bnk48Members[random].nickname
         if let destinationViewController = segue.destination as? ProfileViewController {
             destinationViewController.data = data
         }
