@@ -28,6 +28,24 @@
 		8413B3BB206151E600877907 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		847FEF3A206174F30062D7C1 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		847FEF42206214010062D7C1 /* SecretViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretViewController.swift; sourceTree = "<group>"; };
+		84A1A0532062B395003759B0 /* kanit-extralightitalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "kanit-extralightitalic.otf"; sourceTree = "<group>"; };
+		84A1A0542062B395003759B0 /* kanit-medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "kanit-medium.otf"; sourceTree = "<group>"; };
+		84A1A0552062B395003759B0 /* kanit-semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "kanit-semibold.otf"; sourceTree = "<group>"; };
+		84A1A0562062B395003759B0 /* kanit-semibolditalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "kanit-semibolditalic.otf"; sourceTree = "<group>"; };
+		84A1A0572062B395003759B0 /* kanit-blackitalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "kanit-blackitalic.otf"; sourceTree = "<group>"; };
+		84A1A0582062B395003759B0 /* kanit-thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "kanit-thin.otf"; sourceTree = "<group>"; };
+		84A1A0592062B395003759B0 /* kanit-extralight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "kanit-extralight.otf"; sourceTree = "<group>"; };
+		84A1A05A2062B395003759B0 /* kanit-mediumitalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "kanit-mediumitalic.otf"; sourceTree = "<group>"; };
+		84A1A05B2062B396003759B0 /* kanit-thinitalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "kanit-thinitalic.otf"; sourceTree = "<group>"; };
+		84A1A05C2062B396003759B0 /* kanit-extrabold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "kanit-extrabold.otf"; sourceTree = "<group>"; };
+		84A1A05D2062B396003759B0 /* kanit-bolditalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "kanit-bolditalic.otf"; sourceTree = "<group>"; };
+		84A1A05E2062B396003759B0 /* kanit-italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "kanit-italic.otf"; sourceTree = "<group>"; };
+		84A1A05F2062B396003759B0 /* kanit-lightitalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "kanit-lightitalic.otf"; sourceTree = "<group>"; };
+		84A1A0602062B396003759B0 /* kanit-extrabolditalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "kanit-extrabolditalic.otf"; sourceTree = "<group>"; };
+		84A1A0612062B396003759B0 /* kanit-regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "kanit-regular.otf"; sourceTree = "<group>"; };
+		84A1A0622062B397003759B0 /* kanit-black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "kanit-black.otf"; sourceTree = "<group>"; };
+		84A1A0632062B397003759B0 /* kanit-light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "kanit-light.otf"; sourceTree = "<group>"; };
+		84A1A0642062B397003759B0 /* kanit-bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "kanit-bold.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +78,7 @@
 		8413B3A82061507E00877907 /* thinc-5th-hack-ios-tutorial-2 */ = {
 			isa = PBXGroup;
 			children = (
+				84A1A0522062B385003759B0 /* Fonts */,
 				8413B3B52061507E00877907 /* Info.plist */,
 				8413B3A92061507E00877907 /* AppDelegate.swift */,
 				8413B3BB206151E600877907 /* Data.swift */,
@@ -71,6 +90,31 @@
 				8413B3AD2061507E00877907 /* Main.storyboard */,
 			);
 			path = "thinc-5th-hack-ios-tutorial-2";
+			sourceTree = "<group>";
+		};
+		84A1A0522062B385003759B0 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				84A1A0622062B397003759B0 /* kanit-black.otf */,
+				84A1A0572062B395003759B0 /* kanit-blackitalic.otf */,
+				84A1A0642062B397003759B0 /* kanit-bold.otf */,
+				84A1A05D2062B396003759B0 /* kanit-bolditalic.otf */,
+				84A1A05C2062B396003759B0 /* kanit-extrabold.otf */,
+				84A1A0602062B396003759B0 /* kanit-extrabolditalic.otf */,
+				84A1A0592062B395003759B0 /* kanit-extralight.otf */,
+				84A1A0532062B395003759B0 /* kanit-extralightitalic.otf */,
+				84A1A05E2062B396003759B0 /* kanit-italic.otf */,
+				84A1A0632062B397003759B0 /* kanit-light.otf */,
+				84A1A05F2062B396003759B0 /* kanit-lightitalic.otf */,
+				84A1A0542062B395003759B0 /* kanit-medium.otf */,
+				84A1A05A2062B395003759B0 /* kanit-mediumitalic.otf */,
+				84A1A0612062B396003759B0 /* kanit-regular.otf */,
+				84A1A0552062B395003759B0 /* kanit-semibold.otf */,
+				84A1A0562062B395003759B0 /* kanit-semibolditalic.otf */,
+				84A1A0582062B395003759B0 /* kanit-thin.otf */,
+				84A1A05B2062B396003759B0 /* kanit-thinitalic.otf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

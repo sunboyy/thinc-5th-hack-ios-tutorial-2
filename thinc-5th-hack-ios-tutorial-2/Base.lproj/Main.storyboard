@@ -10,8 +10,8 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
-        <array key="HelveticaNeueLights.ttc">
-            <string>HelveticaNeue-Light</string>
+        <array key="kanit-light.otf">
+            <string>Kanit-Light</string>
         </array>
     </customFonts>
     <scenes>
@@ -30,7 +30,7 @@
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="MSV-jP-Yus"/>
                                     <constraint firstAttribute="height" constant="50" id="t4K-Ds-DYP"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <fontDescription key="fontDescription" name="Kanit-Light" family="Kanit" pointSize="20"/>
                                 <state key="normal" title="Random">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -45,8 +45,8 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cYQ-ZJ-mUy">
-                                        <rect key="frame" x="146.5" y="34" width="82.5" height="38"/>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="32"/>
+                                        <rect key="frame" x="146.5" y="24" width="83" height="48"/>
+                                        <fontDescription key="fontDescription" name="Kanit-Light" family="Kanit" pointSize="32"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -101,58 +101,58 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Full Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9vr-bO-shk">
-                                <rect key="frame" x="135.5" y="413.5" width="103.5" height="30"/>
+                                <rect key="frame" x="133.5" y="388" width="108" height="36"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="heE-wp-ps8"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="36" id="heE-wp-ps8"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <fontDescription key="fontDescription" name="Kanit-Light" family="Kanit" pointSize="24"/>
                                 <color key="textColor" red="0.53280055522918701" green="0.27718311548233032" blue="0.5197148323059082" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="5JF-JN-zfD">
-                                <rect key="frame" x="91" y="463.5" width="193.5" height="93.5"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="5JF-JN-zfD">
+                                <rect key="frame" x="81" y="444" width="214.5" height="113"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="top" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="Hb3-H2-mW8">
-                                        <rect key="frame" x="0.0" y="0.0" width="101" height="93.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="107.5" height="113"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date of birth:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4MW-7L-vue">
-                                                <rect key="frame" x="0.0" y="0.0" width="101" height="20.5"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="107.5" height="27"/>
+                                                <fontDescription key="fontDescription" name="Kanit-Light" family="Kanit" pointSize="18"/>
                                                 <color key="textColor" red="0.77216029167175293" green="0.55595332384109497" blue="0.76666420698165894" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Height:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cyz-yS-NB0">
-                                                <rect key="frame" x="0.0" y="36.5" width="55.5" height="20.5"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <rect key="frame" x="0.0" y="43" width="55.5" height="27"/>
+                                                <fontDescription key="fontDescription" name="Kanit-Light" family="Kanit" pointSize="18"/>
                                                 <color key="textColor" red="0.7721602917" green="0.55595332379999995" blue="0.76666420700000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Blood Group:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O7u-W8-L2h">
-                                                <rect key="frame" x="0.0" y="73" width="100.5" height="20.5"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <rect key="frame" x="0.0" y="86" width="103.5" height="27"/>
+                                                <fontDescription key="fontDescription" name="Kanit-Light" family="Kanit" pointSize="18"/>
                                                 <color key="textColor" red="0.7721602917" green="0.55595332379999995" blue="0.76666420700000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="T57-lJ-Yec">
-                                        <rect key="frame" x="109" y="0.0" width="84.5" height="93.5"/>
+                                        <rect key="frame" x="123.5" y="0.0" width="91" height="113"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1 Jan 2000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zgc-0R-Xd4">
-                                                <rect key="frame" x="0.0" y="0.0" width="84.5" height="20.5"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="91" height="27"/>
+                                                <fontDescription key="fontDescription" name="Kanit-Light" family="Kanit" pointSize="18"/>
                                                 <color key="textColor" red="0.53280055520000003" green="0.27718311550000002" blue="0.51971483230000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="160 cm" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h4q-8a-f8c">
-                                                <rect key="frame" x="0.0" y="36.5" width="84.5" height="20.5"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <rect key="frame" x="0.0" y="43" width="91" height="27"/>
+                                                <fontDescription key="fontDescription" name="Kanit-Light" family="Kanit" pointSize="18"/>
                                                 <color key="textColor" red="0.53280055520000003" green="0.27718311550000002" blue="0.51971483230000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="B" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6ID-0C-Tae">
-                                                <rect key="frame" x="0.0" y="73" width="84.5" height="20.5"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <rect key="frame" x="0.0" y="86" width="91" height="27"/>
+                                                <fontDescription key="fontDescription" name="Kanit-Light" family="Kanit" pointSize="18"/>
                                                 <color key="textColor" red="0.53280055520000003" green="0.27718311550000002" blue="0.51971483230000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -164,8 +164,8 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KPA-Np-Jyf">
-                                        <rect key="frame" x="146.5" y="34" width="82.5" height="38"/>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="32"/>
+                                        <rect key="frame" x="146.5" y="24" width="83" height="48"/>
+                                        <fontDescription key="fontDescription" name="Kanit-Light" family="Kanit" pointSize="32"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -179,7 +179,7 @@
                                 </constraints>
                             </view>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="YxV-if-Ufw">
-                                <rect key="frame" x="20" y="100" width="335" height="297.5"/>
+                                <rect key="frame" x="20" y="100" width="335" height="272"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="tNx-tc-fz0">
                                 <rect key="frame" x="79" y="577" width="216" height="50"/>
@@ -191,7 +191,7 @@
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="X3m-Mh-6tx"/>
                                             <constraint firstAttribute="height" constant="50" id="ijU-Gh-dHB"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <fontDescription key="fontDescription" name="Kanit-Light" family="Kanit" pointSize="20"/>
                                         <state key="normal" title="Back">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
@@ -207,7 +207,7 @@
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="NL1-ln-rfe"/>
                                             <constraint firstAttribute="height" constant="50" id="wiD-BQ-Syl"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <fontDescription key="fontDescription" name="Kanit-Light" family="Kanit" pointSize="20"/>
                                         <state key="normal" title="Call">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>

@@ -3,9 +3,9 @@ import UIKit
 class SecretViewController: UIViewController {
 
     @IBAction func backBtn(_ sender: Any) {
-        dismiss(animated: true) {
-        }
+        dismiss(animated: true, completion: nil)
     }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

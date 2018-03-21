@@ -41,19 +41,17 @@ class ProfileViewController: UIViewController {
         if context.canEvaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, error: &error) {
             let reason = "Authenticate with Touch ID"
             context.evaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, localizedReason: reason) { (success, error) in
-                    if success {
-                        self.performSegue(withIdentifier: "showSecret", sender: nil)
-                        print("call")
-                    }
-                    else {
-                        self.showAlertController("Touch ID Authentication Failed")
-                    }
+                if success {
+                    self.performSegue(withIdentifier: "showSecret", sender: nil)
+                }
+                else {
+                    self.showAlertController("Touch ID Authentication Failed")
+                }
             }
         }
         else {
             showAlertController("Touch ID not available")
         }
-
     }
     
     func showAlertController(_ message: String) {

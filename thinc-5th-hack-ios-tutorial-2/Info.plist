@@ -2,6 +2,27 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>kanit-black.otf</string>
+		<string>kanit-blackitalic.otf</string>
+		<string>kanit-bold.otf</string>
+		<string>kanit-bolditalic.otf</string>
+		<string>kanit-extrabold.otf</string>
+		<string>kanit-extrabolditalic.otf</string>
+		<string>kanit-extralight.otf</string>
+		<string>kanit-extralightitalic.otf</string>
+		<string>kanit-italic.otf</string>
+		<string>kanit-light.otf</string>
+		<string>kanit-lightitalic.otf</string>
+		<string>kanit-medium.otf</string>
+		<string>kanit-mediumitalic.otf</string>
+		<string>kanit-regular.otf</string>
+		<string>kanit-semibold.otf</string>
+		<string>kanit-semibolditalic.otf</string>
+		<string>kanit-thin.otf</string>
+		<string>kanit-thinitalic.otf</string>
+	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
