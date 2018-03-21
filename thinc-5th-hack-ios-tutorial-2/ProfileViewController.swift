@@ -9,7 +9,8 @@
 import UIKit
 import LocalAuthentication
 class ProfileViewController: UIViewController {
-    var data:String!
+    
+    var member: Member?
     @IBOutlet weak var nameText: UILabel!
     @IBOutlet weak var birthText: UILabel!
     @IBOutlet weak var heightText: UILabel!
@@ -25,11 +26,16 @@ class ProfileViewController: UIViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-        let member = loadJson(name: data)
-        nameText.text = member?.name
-        birthText.text = member?.birth
-        heightText.text = member?.height
-        bloodTypeText.text = member?.blood
+        
+        if let member = member {
+            nameText.text = member.nameTH
+            birthText.text = member.birthdate
+            heightText.text = "\(member.height) cm"
+            bloodTypeText.text = member.bloodgroup
+        }
+        else {
+            dismiss(animated: true, completion: nil)
+        }
         
     }
     

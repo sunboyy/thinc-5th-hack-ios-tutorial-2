@@ -60,15 +60,15 @@
 		8413B3A82061507E00877907 /* thinc-5th-hack-ios-tutorial-2 */ = {
 			isa = PBXGroup;
 			children = (
-				8413B3A92061507E00877907 /* AppDelegate.swift */,
-				8413B3AB2061507E00877907 /* ViewController.swift */,
-				8413B3AD2061507E00877907 /* Main.storyboard */,
-				8413B3B02061507E00877907 /* Assets.xcassets */,
-				8413B3B22061507E00877907 /* LaunchScreen.storyboard */,
 				8413B3B52061507E00877907 /* Info.plist */,
+				8413B3A92061507E00877907 /* AppDelegate.swift */,
 				8413B3BB206151E600877907 /* Data.swift */,
 				847FEF3A206174F30062D7C1 /* ProfileViewController.swift */,
 				847FEF42206214010062D7C1 /* SecretViewController.swift */,
+				8413B3AB2061507E00877907 /* ViewController.swift */,
+				8413B3B02061507E00877907 /* Assets.xcassets */,
+				8413B3B22061507E00877907 /* LaunchScreen.storyboard */,
+				8413B3AD2061507E00877907 /* Main.storyboard */,
 			);
 			path = "thinc-5th-hack-ios-tutorial-2";
 			sourceTree = "<group>";
