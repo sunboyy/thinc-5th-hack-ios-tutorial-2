@@ -169,30 +169,10 @@
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                </subviews>
-                                <color key="backgroundColor" red="0.88065415619999998" green="0.71735870840000004" blue="0.84816807510000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="80" id="Qs8-wl-rJM"/>
-                                    <constraint firstItem="KPA-Np-Jyf" firstAttribute="centerX" secondItem="1wZ-vk-xeL" secondAttribute="centerX" id="o5b-gN-OC9"/>
-                                    <constraint firstAttribute="bottom" secondItem="KPA-Np-Jyf" secondAttribute="bottom" constant="8" id="utV-QA-Mjc"/>
-                                    <constraint firstAttribute="height" constant="80" id="w1h-Tl-lsK"/>
-                                </constraints>
-                            </view>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="YxV-if-Ufw">
-                                <rect key="frame" x="20" y="100" width="335" height="272"/>
-                            </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="tNx-tc-fz0">
-                                <rect key="frame" x="79" y="577" width="216" height="50"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FnL-NA-Mul">
-                                        <rect key="frame" x="0.0" y="0.0" width="100" height="50"/>
-                                        <color key="backgroundColor" red="0.77221077680000005" green="0.55601042509999998" blue="0.7624661922" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="X3m-Mh-6tx"/>
-                                            <constraint firstAttribute="height" constant="50" id="ijU-Gh-dHB"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="Kanit-Light" family="Kanit" pointSize="20"/>
-                                        <state key="normal" title="Back">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FnL-NA-Mul">
+                                        <rect key="frame" x="20" y="28.5" width="126.5" height="39"/>
+                                        <fontDescription key="fontDescription" name="Kanit-Light" family="Kanit" pointSize="18"/>
+                                        <state key="normal" title="&lt; Back">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
@@ -200,40 +180,53 @@
                                             <action selector="randomPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4xk-pY-rUs"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dm1-CZ-R3x">
-                                        <rect key="frame" x="116" y="0.0" width="100" height="50"/>
-                                        <color key="backgroundColor" red="0.77221077680000005" green="0.55601042509999998" blue="0.7624661922" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="NL1-ln-rfe"/>
-                                            <constraint firstAttribute="height" constant="50" id="wiD-BQ-Syl"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="Kanit-Light" family="Kanit" pointSize="20"/>
-                                        <state key="normal" title="Call">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="callBtn:" destination="9Ll-bh-h78" eventType="touchUpInside" id="nYm-zL-o5E"/>
-                                            <action selector="randomPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wZA-eI-9B1"/>
-                                        </connections>
-                                    </button>
                                 </subviews>
-                            </stackView>
+                                <color key="backgroundColor" red="0.88065415619999998" green="0.71735870840000004" blue="0.84816807510000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="FnL-NA-Mul" firstAttribute="leading" secondItem="1wZ-vk-xeL" secondAttribute="leading" constant="20" id="NhH-1D-47S"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="80" id="Qs8-wl-rJM"/>
+                                    <constraint firstItem="KPA-Np-Jyf" firstAttribute="centerY" secondItem="FnL-NA-Mul" secondAttribute="centerY" id="h0l-X3-et9"/>
+                                    <constraint firstItem="KPA-Np-Jyf" firstAttribute="centerX" secondItem="1wZ-vk-xeL" secondAttribute="centerX" id="o5b-gN-OC9"/>
+                                    <constraint firstAttribute="bottom" secondItem="KPA-Np-Jyf" secondAttribute="bottom" constant="8" id="utV-QA-Mjc"/>
+                                    <constraint firstItem="KPA-Np-Jyf" firstAttribute="leading" secondItem="FnL-NA-Mul" secondAttribute="trailing" id="vJ5-19-Wh8"/>
+                                    <constraint firstAttribute="height" constant="80" id="w1h-Tl-lsK"/>
+                                </constraints>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="YxV-if-Ufw">
+                                <rect key="frame" x="20" y="100" width="335" height="272"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dm1-CZ-R3x">
+                                <rect key="frame" x="137" y="577" width="100" height="50"/>
+                                <color key="backgroundColor" red="0.77221077680000005" green="0.55601042509999998" blue="0.7624661922" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="NL1-ln-rfe"/>
+                                    <constraint firstAttribute="height" constant="50" id="wiD-BQ-Syl"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Kanit-Light" family="Kanit" pointSize="20"/>
+                                <state key="normal" title="Call">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="callBtn:" destination="9Ll-bh-h78" eventType="touchUpInside" id="nYm-zL-o5E"/>
+                                    <action selector="randomPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wZA-eI-9B1"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.99556392431259155" green="0.9142451286315918" blue="0.91278558969497681" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="YxV-if-Ufw" firstAttribute="top" secondItem="1wZ-vk-xeL" secondAttribute="bottom" constant="20" id="1UA-LF-R4W"/>
                             <constraint firstItem="1wZ-vk-xeL" firstAttribute="trailing" secondItem="jZV-Y9-2Kn" secondAttribute="trailing" id="5ia-S7-dK5"/>
+                            <constraint firstItem="jZV-Y9-2Kn" firstAttribute="bottom" secondItem="Dm1-CZ-R3x" secondAttribute="bottom" constant="40" id="BLd-M6-rTz"/>
                             <constraint firstItem="jZV-Y9-2Kn" firstAttribute="trailing" secondItem="YxV-if-Ufw" secondAttribute="trailing" constant="20" id="BtY-PH-wKd"/>
                             <constraint firstItem="5JF-JN-zfD" firstAttribute="centerX" secondItem="QTc-tG-PSI" secondAttribute="centerX" id="Lx0-VH-efv"/>
+                            <constraint firstItem="Dm1-CZ-R3x" firstAttribute="top" secondItem="5JF-JN-zfD" secondAttribute="bottom" constant="20" id="QxV-4l-F7A"/>
                             <constraint firstItem="YxV-if-Ufw" firstAttribute="leading" secondItem="jZV-Y9-2Kn" secondAttribute="leading" constant="20" id="UfD-mP-q2m"/>
                             <constraint firstItem="9vr-bO-shk" firstAttribute="centerX" secondItem="QTc-tG-PSI" secondAttribute="centerX" id="Vvd-UD-yy7"/>
-                            <constraint firstItem="jZV-Y9-2Kn" firstAttribute="bottom" secondItem="tNx-tc-fz0" secondAttribute="bottom" constant="40" id="WoL-2d-pke"/>
-                            <constraint firstItem="tNx-tc-fz0" firstAttribute="centerX" secondItem="QTc-tG-PSI" secondAttribute="centerX" id="YNq-BN-GSy"/>
                             <constraint firstItem="1wZ-vk-xeL" firstAttribute="leading" secondItem="jZV-Y9-2Kn" secondAttribute="leading" id="ZaH-hn-XkX"/>
+                            <constraint firstItem="Dm1-CZ-R3x" firstAttribute="centerX" secondItem="QTc-tG-PSI" secondAttribute="centerX" id="ZgD-t3-Fxi"/>
                             <constraint firstItem="5JF-JN-zfD" firstAttribute="top" secondItem="9vr-bO-shk" secondAttribute="bottom" constant="20" id="bNh-ZH-lfu"/>
                             <constraint firstItem="9vr-bO-shk" firstAttribute="top" secondItem="YxV-if-Ufw" secondAttribute="bottom" constant="16" id="gVW-1E-qyb"/>
                             <constraint firstItem="1wZ-vk-xeL" firstAttribute="top" secondItem="QTc-tG-PSI" secondAttribute="top" id="u2C-EJ-Foa"/>
-                            <constraint firstItem="tNx-tc-fz0" firstAttribute="top" secondItem="5JF-JN-zfD" secondAttribute="bottom" constant="20" id="xx2-KU-Hzb"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="jZV-Y9-2Kn"/>
                     </view>

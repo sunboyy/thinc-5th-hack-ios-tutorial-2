@@ -15,6 +15,24 @@
 		8413B3BC206151E600877907 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8413B3BB206151E600877907 /* Data.swift */; };
 		847FEF3B206174F30062D7C1 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847FEF3A206174F30062D7C1 /* ProfileViewController.swift */; };
 		847FEF43206214010062D7C1 /* SecretViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847FEF42206214010062D7C1 /* SecretViewController.swift */; };
+		84A1A0652062B8AC003759B0 /* kanit-black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 84A1A0622062B397003759B0 /* kanit-black.otf */; };
+		84A1A0662062B8AC003759B0 /* kanit-blackitalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 84A1A0572062B395003759B0 /* kanit-blackitalic.otf */; };
+		84A1A0672062B8AC003759B0 /* kanit-bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 84A1A0642062B397003759B0 /* kanit-bold.otf */; };
+		84A1A0682062B8AC003759B0 /* kanit-bolditalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 84A1A05D2062B396003759B0 /* kanit-bolditalic.otf */; };
+		84A1A0692062B8AC003759B0 /* kanit-extrabold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 84A1A05C2062B396003759B0 /* kanit-extrabold.otf */; };
+		84A1A06A2062B8AC003759B0 /* kanit-extrabolditalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 84A1A0602062B396003759B0 /* kanit-extrabolditalic.otf */; };
+		84A1A06B2062B8AC003759B0 /* kanit-extralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 84A1A0592062B395003759B0 /* kanit-extralight.otf */; };
+		84A1A06C2062B8AC003759B0 /* kanit-extralightitalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 84A1A0532062B395003759B0 /* kanit-extralightitalic.otf */; };
+		84A1A06D2062B8AC003759B0 /* kanit-italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 84A1A05E2062B396003759B0 /* kanit-italic.otf */; };
+		84A1A06E2062B8AC003759B0 /* kanit-light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 84A1A0632062B397003759B0 /* kanit-light.otf */; };
+		84A1A06F2062B8AC003759B0 /* kanit-lightitalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 84A1A05F2062B396003759B0 /* kanit-lightitalic.otf */; };
+		84A1A0702062B8AC003759B0 /* kanit-medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 84A1A0542062B395003759B0 /* kanit-medium.otf */; };
+		84A1A0712062B8AC003759B0 /* kanit-mediumitalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 84A1A05A2062B395003759B0 /* kanit-mediumitalic.otf */; };
+		84A1A0722062B8AC003759B0 /* kanit-regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 84A1A0612062B396003759B0 /* kanit-regular.otf */; };
+		84A1A0732062B8AC003759B0 /* kanit-semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 84A1A0552062B395003759B0 /* kanit-semibold.otf */; };
+		84A1A0742062B8AC003759B0 /* kanit-semibolditalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 84A1A0562062B395003759B0 /* kanit-semibolditalic.otf */; };
+		84A1A0752062B8AC003759B0 /* kanit-thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 84A1A0582062B395003759B0 /* kanit-thin.otf */; };
+		84A1A0762062B8AC003759B0 /* kanit-thinitalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 84A1A05B2062B396003759B0 /* kanit-thinitalic.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -176,9 +194,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84A1A0732062B8AC003759B0 /* kanit-semibold.otf in Resources */,
+				84A1A0722062B8AC003759B0 /* kanit-regular.otf in Resources */,
 				8413B3B42061507E00877907 /* LaunchScreen.storyboard in Resources */,
+				84A1A06B2062B8AC003759B0 /* kanit-extralight.otf in Resources */,
+				84A1A0762062B8AC003759B0 /* kanit-thinitalic.otf in Resources */,
 				8413B3B12061507E00877907 /* Assets.xcassets in Resources */,
+				84A1A0742062B8AC003759B0 /* kanit-semibolditalic.otf in Resources */,
+				84A1A0672062B8AC003759B0 /* kanit-bold.otf in Resources */,
+				84A1A06E2062B8AC003759B0 /* kanit-light.otf in Resources */,
+				84A1A0692062B8AC003759B0 /* kanit-extrabold.otf in Resources */,
+				84A1A0682062B8AC003759B0 /* kanit-bolditalic.otf in Resources */,
 				8413B3AF2061507E00877907 /* Main.storyboard in Resources */,
+				84A1A0712062B8AC003759B0 /* kanit-mediumitalic.otf in Resources */,
+				84A1A06F2062B8AC003759B0 /* kanit-lightitalic.otf in Resources */,
+				84A1A06C2062B8AC003759B0 /* kanit-extralightitalic.otf in Resources */,
+				84A1A0662062B8AC003759B0 /* kanit-blackitalic.otf in Resources */,
+				84A1A0702062B8AC003759B0 /* kanit-medium.otf in Resources */,
+				84A1A0752062B8AC003759B0 /* kanit-thin.otf in Resources */,
+				84A1A06D2062B8AC003759B0 /* kanit-italic.otf in Resources */,
+				84A1A06A2062B8AC003759B0 /* kanit-extrabolditalic.otf in Resources */,
+				84A1A0652062B8AC003759B0 /* kanit-black.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,6 +367,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6RJB7AVFBE;
 				INFOPLIST_FILE = "thinc-5th-hack-ios-tutorial-2/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mrsunboy.thinc-5th-hack-ios-tutorial-2";
@@ -345,6 +382,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6RJB7AVFBE;
 				INFOPLIST_FILE = "thinc-5th-hack-ios-tutorial-2/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mrsunboy.thinc-5th-hack-ios-tutorial-2";
