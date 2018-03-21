@@ -1,11 +1,3 @@
-//
-//  ProfileViewController.swift
-//  thinc-5th-hack-ios-tutorial-1
-//
-//  Created by Admin on 20/3/2561 BE.
-//  Copyright © 2561 mrsunboy. All rights reserved.
-//
-
 import UIKit
 import LocalAuthentication
 class ProfileViewController: UIViewController {
@@ -15,6 +7,7 @@ class ProfileViewController: UIViewController {
     @IBOutlet weak var birthText: UILabel!
     @IBOutlet weak var heightText: UILabel!
     @IBOutlet weak var bloodTypeText: UILabel!
+    @IBOutlet weak var memberImg: UIImageView!
     
     @IBAction func callBtn(_ sender: Any) {
         touchId()
@@ -24,11 +17,13 @@ class ProfileViewController: UIViewController {
         dismiss(animated: true) {
         }
     }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         if let member = member {
             nameText.text = member.nameTH
+            memberImg.image = member.image
             birthText.text = member.birthdate
             heightText.text = "\(member.height) cm"
             bloodTypeText.text = member.bloodgroup
