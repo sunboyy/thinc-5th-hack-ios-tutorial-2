@@ -39,68 +39,20 @@ class ProfileViewController: UIViewController {
         
     }
     
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-    struct ResponseData: Decodable {
-        var personNames: [String]
-        var personDetails: [Person]
-        private struct CodingKeys: CodingKey {
-            var intValue: Int?
-            var stringValue: String
-            init?(intValue: Int) { self.intValue = intValue; self.stringValue = "" }
-            init?(stringValue: String) { self.stringValue = stringValue }
-        }
-        
-        init(from decoder: Decoder) throws {
-            self.personNames = [String]()
-            self.personDetails = [Person]()
-            let container = try decoder.container(keyedBy: CodingKeys.self)
-            for key in container.allKeys {
-                self.personNames.append(key.stringValue)
-                try self.personDetails.append(container.decode(Person.self, forKey: key))
-            }
-        }
-    }
-    
-    struct Person : Decodable {
-        var name: String
-        var birth: String
-        var height: String
-        var blood: String
-    }
-
-    
-    func loadJson(name: String)->Person?{
-        if let path = Bundle.main.path(forResource: "profile", ofType: "json") {
-            do {
-                let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
-                let list = try! JSONDecoder().decode(ResponseData.self, from: data)
-                return list.personDetails[list.personNames.index(of: name)!]
-            } catch {
-                // handle error
-            }
-        }
-     return nil
-    }
-    
-    func touchId(){
+    func touchId() {
         let context = LAContext()
         var error: NSError?
         if context.canEvaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, error: &error) {
-            
             let reason = "Authenticate with Touch ID"
-            context.evaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, localizedReason: reason, reply:
-                {(succes, error) in
-                    if succes {
+            context.evaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, localizedReason: reason) { (success, error) in
+                    if success {
                         self.performSegue(withIdentifier: "showSecret", sender: nil)
                         print("call")
-                    }else {
+                    }
+                    else {
                         self.showAlertController("Touch ID Authentication Failed")
                     }
-            } )
+            }
         }
         else {
             showAlertController("Touch ID not available")
@@ -113,7 +65,6 @@ class ProfileViewController: UIViewController {
         alertController.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
         present(alertController, animated: true, completion: nil)
     }
-    
 
 }
 
