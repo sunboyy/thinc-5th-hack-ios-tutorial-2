@@ -1,37 +1,17 @@
 import UIKit
 import LocalAuthentication
+
 class ProfileViewController: UIViewController {
     
     var member: Member?
-    @IBOutlet weak var nicknameLbl: UILabel!
-    @IBOutlet weak var nameLbl: UILabel!
-    @IBOutlet weak var birthText: UILabel!
-    @IBOutlet weak var heightText: UILabel!
-    @IBOutlet weak var bloodTypeText: UILabel!
-    @IBOutlet weak var memberImg: UIImageView!
     
-    @IBAction func callBtn(_ sender: Any) {
-        touchId()
-    }
+    // Fill outlets and actions
     
-    @IBAction func backBtnPressed(_ sender: Any) {
-        dismiss(animated: true, completion: nil)
-    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        if let member = member {
-            nicknameLbl.text = member.nickname
-            nameLbl.text = member.nameTH
-            memberImg.image = member.image
-            birthText.text = member.birthdate
-            heightText.text = "\(member.height) cm"
-            bloodTypeText.text = member.bloodgroup
-        }
-        else {
-            dismiss(animated: true, completion: nil)
-        }
+        // Fill code
         
     }
     

@@ -18,10 +18,8 @@ class ViewController: UIViewController {
         memberImg.image = currentMember.image
     }
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if let destinationViewController = segue.destination as? ProfileViewController {
-            destinationViewController.member = currentMember
-        }
-    }
+    // Fill prepare segue
+    
+    
 }
 

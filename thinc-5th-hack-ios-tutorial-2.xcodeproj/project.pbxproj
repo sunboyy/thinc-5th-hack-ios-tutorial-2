@@ -14,7 +14,6 @@
 		8413B3B42061507E00877907 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8413B3B22061507E00877907 /* LaunchScreen.storyboard */; };
 		8413B3BC206151E600877907 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8413B3BB206151E600877907 /* Data.swift */; };
 		847FEF3B206174F30062D7C1 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847FEF3A206174F30062D7C1 /* ProfileViewController.swift */; };
-		847FEF43206214010062D7C1 /* SecretViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847FEF42206214010062D7C1 /* SecretViewController.swift */; };
 		84A1A0652062B8AC003759B0 /* kanit-black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 84A1A0622062B397003759B0 /* kanit-black.otf */; };
 		84A1A0662062B8AC003759B0 /* kanit-blackitalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 84A1A0572062B395003759B0 /* kanit-blackitalic.otf */; };
 		84A1A0672062B8AC003759B0 /* kanit-bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 84A1A0642062B397003759B0 /* kanit-bold.otf */; };
@@ -45,7 +44,6 @@
 		8413B3B52061507E00877907 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8413B3BB206151E600877907 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		847FEF3A206174F30062D7C1 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
-		847FEF42206214010062D7C1 /* SecretViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretViewController.swift; sourceTree = "<group>"; };
 		84A1A0532062B395003759B0 /* kanit-extralightitalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "kanit-extralightitalic.otf"; sourceTree = "<group>"; };
 		84A1A0542062B395003759B0 /* kanit-medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "kanit-medium.otf"; sourceTree = "<group>"; };
 		84A1A0552062B395003759B0 /* kanit-semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "kanit-semibold.otf"; sourceTree = "<group>"; };
@@ -101,7 +99,6 @@
 				8413B3A92061507E00877907 /* AppDelegate.swift */,
 				8413B3BB206151E600877907 /* Data.swift */,
 				847FEF3A206174F30062D7C1 /* ProfileViewController.swift */,
-				847FEF42206214010062D7C1 /* SecretViewController.swift */,
 				8413B3AB2061507E00877907 /* ViewController.swift */,
 				8413B3B02061507E00877907 /* Assets.xcassets */,
 				8413B3B22061507E00877907 /* LaunchScreen.storyboard */,
@@ -225,7 +222,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				847FEF43206214010062D7C1 /* SecretViewController.swift in Sources */,
 				8413B3AC2061507E00877907 /* ViewController.swift in Sources */,
 				8413B3BC206151E600877907 /* Data.swift in Sources */,
 				847FEF3B206174F30062D7C1 /* ProfileViewController.swift in Sources */,
